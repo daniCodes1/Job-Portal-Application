@@ -1,0 +1,93 @@
+.options-employee button {
+    background-color: #04AA6D;
+    /* Green background */
+    border: 1px solid green;
+    /* Green border */
+    color: white;
+    /* White text */
+    padding: 10px 24px;
+    /* Some padding */
+    cursor: pointer;
+    /* Pointer/hand icon */
+    float: left;
+    /* Float the buttons side by side */
+}
+
+body {
+    background-color: #DBF9DB;
+}
+
+h1 {
+    color: #002244;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+p {
+    color: #0E3386;
+    font-family: "Copperplate", "Papyrus", "Courier New", monospace;
+}
+
+/* Clear floats (clearfix hack) */
+.options-employee :after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.options-employee button:not(:last-child) {
+    border-right: none;
+    /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.options-employee button:hover {
+    background-color: #3e8e41;
+}
+
+.application button {
+    background-color: #04AA6D;
+    /* Green background */
+    border: 1px solid green;
+    /* Green border */
+    color: white;
+    /* White text */
+    padding: 10px 24px;
+    /* Some padding */
+    cursor: pointer;
+    /* Pointer/hand icon */
+    float: left;
+    /* Float the buttons side by side */
+}
+
+.submit button {
+    position: absolute;
+    top: 50%;
+    background-color: #0a0a23;
+}
+
+/* Clear floats (clearfix hack) */
+.application :after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.application button:not(:last-child) {
+    border-right: none;
+    /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.application button:hover {
+    background-color: #3e8e41;
+}
+
+table,
+td,
+th {
+    border: 1px solid;
+}
+
+table {
+    border-collapse: collapse;
+}

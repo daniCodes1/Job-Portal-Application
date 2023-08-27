@@ -1,0 +1,35 @@
+-- DROP TABLES
+
+drop table R1_PositionNameTeam;
+drop table R5_EmployeeNumPosition;
+drop table R7_EmailPhone;
+drop table R8_EmployeeNumEmail;
+drop table ProduceApplication;
+drop table CoverLetter;
+drop table Resumes;
+drop table Draft;
+drop table HiringManager;
+drop table Supervisor;
+drop table Conducts;
+drop table Reviews;
+drop table JR1_ScheduleSalary;
+drop table JR5_PositionDuties;
+drop table JR7_DutyQualifications;
+drop table JR9_ID_Qualifications;
+drop table JR10_ID_Shift;
+drop table Creates;
+drop table AppliesFor;
+drop table JR3_ID_SpotNum;
+drop table Interview;
+drop table R3_EmployeeNumName;
+drop table AcceptDenyOffer;
+drop table StoreApplication;
+drop table CreateAccount;
+drop table Applicant;
+
+drop table jobTable;
+drop table coverTable;
+drop table resumeTable;
+drop table storeAppTable;
+drop table interviewTable;
+drop table accountTable;
